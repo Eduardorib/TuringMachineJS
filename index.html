@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Turing Machine</title>
+        <script src="./turing-machine.js" defer></script>
+    </head>
+    <body>
+        <h1>Máquina de turing</h1>
+        <form>
+            <div style="display: flex; gap: 0.5rem">
+                <div style="display: flex; flex-direction: column; gap: 0.5rem">
+                    <label for="ruleset">Arquivo sétupla</label>
+                    <input type="file" accept="application/JSON" id="ruleset" name="ruleset">
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 0.5rem">
+                    <label for="tape">Cadeia</label>
+                    <input type="text" id="tape" name="tape">
+                </div>
+
+                <button type="submit" value="run">Submeter</button>
+            </div>
+        </form>
+        <div id="visualMT"></div>
+    </body>
+</html>
