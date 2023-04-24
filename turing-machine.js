@@ -57,7 +57,7 @@ function startMT(event) {
         }
     } else {
         printLine(getStatus());
-        printLine("halt");
+        printLine("Aceita");
     }
 
     printFinal(rulesetOBJ);
